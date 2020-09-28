@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvisoDeCambio.Interfaces", "AvisoDeCambio.Interfaces\AvisoDeCambio.Interfaces.csproj", "{02166FF8-B16C-4FF5-8147-B9AA38F6230B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvisoDeCambio.UI", "AvisoDeCambio.UI\AvisoDeCambio.UI.csproj", "{7E2DA758-1D67-450B-B33B-486FC012EC9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02166FF8-B16C-4FF5-8147-B9AA38F6230B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02166FF8-B16C-4FF5-8147-B9AA38F6230B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02166FF8-B16C-4FF5-8147-B9AA38F6230B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02166FF8-B16C-4FF5-8147-B9AA38F6230B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E2DA758-1D67-450B-B33B-486FC012EC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2DA758-1D67-450B-B33B-486FC012EC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2DA758-1D67-450B-B33B-486FC012EC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2DA758-1D67-450B-B33B-486FC012EC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85F8B120-A323-4905-A415-B6625874C23E}
+	EndGlobalSection
+EndGlobal
