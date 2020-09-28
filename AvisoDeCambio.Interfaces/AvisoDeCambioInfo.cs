@@ -10,8 +10,8 @@ namespace AvisoDeCambio.Interfaces
     {
         public static List<string> AccionASeguir => new List<string> { 
             "Retrabajo",
-            "Putear a GP",
-            "Putear de nuevo a GP"
+            "Ejemplo 1",
+            "Ejemplo 2"
         };
     }
 }
