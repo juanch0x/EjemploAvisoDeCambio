@@ -1,4 +1,5 @@
 ﻿using AvisoDeCambio.Interfaces;
+using AvisoDeCambio.Service;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -114,7 +115,13 @@ namespace AvisoDeCambio.UI
 
         private void BtnEnviar_Click(object sender, EventArgs e)
         {
-            List<PlanoUI> resultadoPlanoUI = new List<PlanoUI>();
+
+            var aviso = new Aviso
+            {
+                NotaDeVenta = "10949-06",
+                Potencia = "40MVA"
+            };
+
 
             foreach (DataGridViewRow fila in tablaPlano.Rows)
             {
@@ -157,9 +164,9 @@ namespace AvisoDeCambio.UI
                         planoUi.AccionASeguir = celda.Value.ToString();
                     }
                 }
-                resultadoPlanoUI.Add(planoUi);
-                Console.WriteLine(planoUi);
+                aviso.Planos.Add(planoUi);                
             }
+            MailSender.SendEmail(aviso);
         }
     }
 

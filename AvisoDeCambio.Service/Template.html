@@ -1,0 +1,117 @@
+﻿<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        table td,
+        table th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        table th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4caf50;
+            color: white;
+        }
+
+    .info {
+        margin-top: 50px;
+    }
+</style>
+
+<body>
+    <h1>Aviso de cambio de Ingeniería</h1>
+    <ul>
+        <li id="notaDeVenta"></li>
+        <li id="codigoTransformador"></li>
+        <li id="potencia"></li>
+        <li id="tension"></li>
+        <li id="cliente"></li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Documentos a modificar</th>
+                <th colspan="3">Documentos revisionados</th>
+                <th>Modificación realizada</th>
+                <th>Estado del proceso</th>
+                <th>Acción a seguir</th>
+                <th>Observación</th>
+            </tr>
+            <tr>
+                <th>Código</th>
+                <th>Título</th>
+                <th>Revisión</th>
+                <th>Código</th>
+                <th>Título</th>
+                <th>Revisión</th>
+                <th colspan="4" style="text-align: center">-</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <div class="info">
+        <h3>Estado del proceso</h3>
+        <ul>
+            <li>
+                <strong>No iniciado:</strong> Todavía no se inició la tarea de
+                fabricación o compra para este artículo.
+            </li>
+            <li>
+                <strong>Con orden de compra:</strong> Se compró pero es posible su
+                modificación.
+            </li>
+            <li>
+                <strong>En proceso:</strong> Ya comenzaron las tareas de fabricación.
+            </li>
+            <li>
+                <strong>Terminado:</strong> La pieza fue fabricada o comprada según las
+                condiciones originales.
+            </li>
+        </ul>
+    </div>
+
+    <div class="info">
+        <h3>Acción a seguir</h3>
+        <ul>
+            <li>
+                <strong>Procesar con última revisión:</strong> La pieza, parte o artículo
+                será procesada con el último plano disponible al momento.
+            </li>
+
+            <li>
+                <strong>Dejar como está:</strong> La pieza , parte o artículo se mantendrá
+                sin cambios hasta que finalice el proceso, y las modificaciones se
+                realizarán a partir de las próximas piezas , partes o artículos que deban
+                procesarse. Esto se da para el caso en que la modificación no afecta el
+                buen desempeño de la pieza , parte o artículo, pero implica una mejora a
+                futuro.
+            </li>
+            <li>
+                <strong>Retrabajar:</strong> Sobre la pieza , parte o artículo procesada o
+                en proceso, deben hacerse la modificaciones indicadas. Esto se da en el
+                caso de que las modificaciones son necesarias para el buen funcionamiento
+                de la pieza , parte o artículo, pero son agregados que no afectan a lo que
+                ya se encontraba procesado o en proceso.
+            </li>
+            <li>
+                <strong>Enviar a Scrapp:</strong> Las piezas , partes o artículos,
+                procesadas o en proceso, deben desecharse y procesarse de nuevo. Esto se
+                da en el caso de que las piezas , partes o artículos no pueden utilizarse
+                de ninguna manera, ya que su desempeño es inaceptable, y además no pueden
+                ser reformadas para lograr su aceptación.
+            </li>
+        </ul>
+    </div>
+</body>

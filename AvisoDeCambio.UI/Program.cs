@@ -1,8 +1,6 @@
 ﻿using AvisoDeCambio.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AvisoDeCambio.UI
@@ -17,8 +15,7 @@ namespace AvisoDeCambio.UI
         {
 
             string edad = "15";
-            int edadInt;
-            if(int.TryParse(edad, out edadInt)){
+            if(int.TryParse(edad, out int edadInt)){
                 Console.WriteLine(edadInt+1);
             }
             else

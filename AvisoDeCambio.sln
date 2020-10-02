@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvisoDeCambio.Interfaces", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvisoDeCambio.UI", "AvisoDeCambio.UI\AvisoDeCambio.UI.csproj", "{7E2DA758-1D67-450B-B33B-486FC012EC9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvisoDeCambio.Service", "AvisoDeCambio.Service\AvisoDeCambio.Service.csproj", "{2B35E60F-63D8-4A71-AA1B-A94FB2E2AE4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7E2DA758-1D67-450B-B33B-486FC012EC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E2DA758-1D67-450B-B33B-486FC012EC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E2DA758-1D67-450B-B33B-486FC012EC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B35E60F-63D8-4A71-AA1B-A94FB2E2AE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B35E60F-63D8-4A71-AA1B-A94FB2E2AE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B35E60F-63D8-4A71-AA1B-A94FB2E2AE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B35E60F-63D8-4A71-AA1B-A94FB2E2AE4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

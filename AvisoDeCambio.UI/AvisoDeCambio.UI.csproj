@@ -84,6 +84,10 @@
       <Project>{02166FF8-B16C-4FF5-8147-B9AA38F6230B}</Project>
       <Name>AvisoDeCambio.Interfaces</Name>
     </ProjectReference>
+    <ProjectReference Include="..\AvisoDeCambio.Service\AvisoDeCambio.Service.csproj">
+      <Project>{2B35E60F-63D8-4A71-AA1B-A94FB2E2AE4B}</Project>
+      <Name>AvisoDeCambio.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
